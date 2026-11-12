@@ -1,0 +1,21 @@
+[project]
+name = "neuroecosistema"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Cristian Chaves", email = "cristianchaves0712@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.4",
+    "pygame>=2.6.1",
+    "torch>=2.15.0",
+]
+
+[project.scripts]
+neuroecosistema = "neuroecosistema:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
